@@ -1,0 +1,14 @@
+Tu vas encore faire un site d'éducation en ligne. Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un cours pourra avoir plusieurs élèves.
+
+TABLE 'students'
+- 'id'
+- 'id_cours'
+- 'nom'
+- 'prenom'
+- 'mail'
+
+TABLE 'cours'
+- 'id'
+- 'nom_du_cours'
+- 'contenu'
+- 'date'

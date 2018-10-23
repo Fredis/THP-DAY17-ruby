@@ -1,0 +1,20 @@
+Tu veux créer un message board à la Hacker News. Les utilisateurs peuvent poster des liens. Les autres utilisateurs peuvent commenter les liens soumis, ou commenter les commentaires. Comment faire en sorte qu'un commentaire sache où dans la hiérarchie il se trouve ? 
+
+TABLE 'users'
+- 'id'
+- 'nom'
+- 'prenom'
+- 'mail'
+
+TABLE 'news'
+- 'id'
+- 'title'
+- 'url'
+
+TABLE 'comments'
+- 'id'
+- 'id_news'
+- 'id_user'
+- 'id_comment' (optional)
+- 'comment'
+- 'date'
